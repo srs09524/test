@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public float timeLeft = 30.0f;
     public int score;
 
     // Start is called before the first frame update

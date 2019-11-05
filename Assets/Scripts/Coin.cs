@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Coin : MonoBehaviour
 {
     public int count;
+    public Text scoreText;
 
-    public float speed = .1f;
+    public float speed = .2f;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -25,7 +26,9 @@ public class Coin : MonoBehaviour
 			gameObject.SetActive (false);
 
             // Add one to the score variable 'count' and update ScoreText in the scene
-            //Score();
+            count++;
+           // scoreText.GetComponent<Text>().text = " " + count;
+
         }
 	}	
 }
