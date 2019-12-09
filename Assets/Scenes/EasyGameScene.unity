@@ -403,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295799913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.66, y: 0.23, z: -29.98}
+  m_LocalPosition: {x: -2.43, y: 0.23, z: -29.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -795,6 +795,8 @@ GameObject:
   - component: {fileID: 1258725919}
   - component: {fileID: 1258725920}
   - component: {fileID: 1258725921}
+  - component: {fileID: 1258725922}
+  - component: {fileID: 1258725923}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -843,6 +845,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiText: {fileID: 915657134}
   mainTimer: 30
+--- !u!114 &1258725922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258725918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b8c1a94137ea447a3265a31a385fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreDisplay: {fileID: 1527517822}
+  InternalScore: 0
+--- !u!114 &1258725923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258725918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8871b5b8983a49e419e37a2b33635204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1318360478
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318360478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.48, y: 0.2, z: -29.78}
+  m_LocalPosition: {x: 2.58, y: 0.2, z: -29.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1002,7 +1030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697449724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.32, z: -30.07}
+  m_LocalPosition: {x: 0.03, y: 0.32, z: -30.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

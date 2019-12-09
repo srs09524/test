@@ -3,13 +3,18 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public GameObject scoreText;
-    public int theScore;
+    public static int ScoreCount;
+    public GameObject ScoreDisplay;
+    public int InternalScore;
 
-    private void OnTriggerEnter(Collider other)
+    void Update()
     {
-        theScore += 50;
-        scoreText.GetComponent<Text>().text = " " + theScore;
-        Destroy(gameObject);
+        InternalScore = ScoreCount;
+        ScoreDisplay.GetComponent<Text>().text = " " + InternalScore;
     }
+    private void Start()
+    {
+        ScoreCount = 0;
+    }
+
 }

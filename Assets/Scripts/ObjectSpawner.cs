@@ -23,6 +23,7 @@ public class ObjectSpawner : MonoBehaviour
         {
 
         objectPool.SpawnPoolObject("Pill", transform.position, Quaternion.identity);
+        objectPool.SpawnPoolObject("bomb", transform.position, Quaternion.identity);
         timeSinceLastSpawn = 0f;
        // Instantiate(g_object, transform.position, Quaternion.identity);   
 

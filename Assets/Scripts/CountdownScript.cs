@@ -46,7 +46,7 @@ public class CountdownScript : MonoBehaviour
     void GameOver()
     {
         SceneManager.LoadScene(0);
-        Debug.Log("Score saved");
+        SaveLoadJson.SaveData();
     }
 }
 
